@@ -19,4 +19,8 @@ export class SecondComponent implements OnInit {
   goToItems() {
     this.router.navigate(['../first-component'], { relativeTo: this.route });
   }
+
+  goToThirdComponent() {
+    this.router.navigate(['../third-component', 100])
+  }
 }

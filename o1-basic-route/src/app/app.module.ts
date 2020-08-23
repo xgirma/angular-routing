@@ -8,6 +8,7 @@ import { SecondComponent } from './second/second.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ChildAComponent } from './child-a/child-a.component';
 import { ChildBComponent } from './child-b/child-b.component';
+import { ThirdComponent } from './third/third.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ChildBComponent } from './child-b/child-b.component';
     SecondComponent,
     PageNotFoundComponent,
     ChildAComponent,
-    ChildBComponent
+    ChildBComponent,
+    ThirdComponent
   ],
   imports: [
     BrowserModule,
